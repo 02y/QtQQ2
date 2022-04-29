@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UpdateSql</class>
+ <widget class="QWidget" name="UpdateSql">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>386</width>
+    <height>351</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="bottomskin" stdset="0">
+   <bool>true</bool>
+  </property>
+  <widget class="QLabel" name="QiNiu">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>32</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>debug/images/qn.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="CommentLabel">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>27</y>
+     <width>281</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::HLine</enum>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;请注意：该程序默认使用MySQL数据库&lt;/p&gt;&lt;p&gt;请确保您的设备上已安装MySQL数据库&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="promptLabel">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>100</y>
+     <width>361</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>请输入数据库配置信息(端口号、主机名已添加默认值)：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="accLabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>140</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>账号：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="accLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>137</y>
+     <width>231</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="pwdLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>179</y>
+     <width>231</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="portLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>224</y>
+     <width>231</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="inputMask">
+    <string/>
+   </property>
+   <property name="text">
+    <string>3306</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pwdLabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>183</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>密码：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="portLabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>229</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>端口号：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="addrLabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>278</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>主机名：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="addrLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>274</y>
+     <width>231</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>localhost</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBtn">
+   <property name="geometry">
+    <rect>
+     <x>78</x>
+     <y>310</y>
+     <width>231</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar">
+   <property name="geometry">
+    <rect>
+     <x>333</x>
+     <y>137</y>
+     <width>31</width>
+     <height>164</height>
+    </rect>
+   </property>
+   <property name="value">
+    <number>1</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <property name="invertedAppearance">
+    <bool>false</bool>
+   </property>
+   <property name="format">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
