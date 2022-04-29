@@ -1,0 +1,23 @@
+INSERT INTO tab_account (employeeID, account, code) VALUES (10002, 'rener', 'rener');
+INSERT INTO tab_account (employeeID, account, code) VALUES (10003, 'rensan', 'rensan');
+INSERT INTO tab_account (employeeID, account, code) VALUES (10001, 'renyi', 'renyi');
+INSERT INTO tab_account (employeeID, account, code) VALUES (10008, 'shier', 'shier');
+INSERT INTO tab_account (employeeID, account, code) VALUES (10009, 'shisan', 'shisan');
+INSERT INTO tab_account (employeeID, account, code) VALUES (10007, 'shiyi', 'shiyi');
+INSERT INTO tab_account (employeeID, account, code) VALUES (10005, 'yaner', 'yaner');
+INSERT INTO tab_account (employeeID, account, code) VALUES (10006, 'yansan', 'yansan');
+INSERT INTO tab_account (employeeID, account, code) VALUES (10004, 'yanyi', 'yanyi');
+INSERT INTO tab_department (departmentID, department_name, sign) VALUES (2000, '公司群',  '越分享越拥有');
+INSERT INTO tab_department (departmentID, department_name, sign) VALUES (2001, '人事部', '招贤纳士');
+INSERT INTO tab_department (departmentID, department_name, sign) VALUES (2002, '研发部', '实用且高效');
+INSERT INTO tab_department (departmentID, department_name, sign) VALUES (2003, '市场部', '精准把握用户需求');
+INSERT INTO tab_employees (departmentID, employeeID, employee_name, employee_sign, status, online) VALUES (2001, 10001, 'renyi', '风一样的女子', 1, 2);
+INSERT INTO tab_employees (departmentID, employeeID, employee_name, employee_sign, status, online) VALUES (2001, 10002, 'rener', '奋斗中。。', 1, 2);
+INSERT INTO tab_employees (departmentID, employeeID, employee_name, employee_sign, status, online) VALUES (2001, 10003, 'rensan', '加油', 1, 2);
+INSERT INTO tab_employees (departmentID, employeeID, employee_name, employee_sign, status, online) VALUES (2002, 10004, 'yanyi', '调bug中', 1, 1);
+INSERT INTO tab_employees (departmentID, employeeID, employee_name, employee_sign, status, online) VALUES (2002, 10005, 'yaner', '改bug中', 1, 1);
+INSERT INTO tab_employees (departmentID, employeeID, employee_name, employee_sign, status, online) VALUES (2002, 10006, 'yansan', '写bug中', 1, 2);
+INSERT INTO tab_employees (departmentID, employeeID, employee_name, employee_sign, status, online) VALUES (2003, 10007, 'shiyi', '梦游中', 1, 1);
+INSERT INTO tab_employees (departmentID, employeeID, employee_name, employee_sign, status, online) VALUES (2003, 10008, 'shier', '目标明确坚定不移', 1, 2);
+INSERT INTO tab_employees (departmentID, employeeID, employee_name, employee_sign, status, online) VALUES (2003, 10009, 'shisan', '周末爬山', 1, 1);
+INSERT INTO tab_employees (departmentID, employeeID, employee_name, employee_sign, status, online) VALUES (2001, 10010, 'rensi', NULL, 0, 1)
